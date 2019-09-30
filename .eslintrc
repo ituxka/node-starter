@@ -6,6 +6,18 @@
     "sourceType": "module"
   },
   "rules": {
+    "prefer-destructuring": "error",
+    "comma-dangle": ["error","always-multiline"],
+    "default-case": "error",
+    "prefer-template": "error",
+    "eqeqeq": "error",
+    "linebreak-style": ["error", "unix"],
+    "no-alert": "error",
+    "no-else-return": "error",
+    "no-unused-vars": "error",
+    "eol-last": "error",
+    "no-trailing-spaces": "error",
+    "indent": [2,2],
     "semi": ["error", "always"],
     "quotes": ["error", "double"],
     "@typescript-eslint/explicit-function-return-type": "off",
